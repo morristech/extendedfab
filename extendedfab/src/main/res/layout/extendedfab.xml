@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/extendedLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:animateLayoutChanges="true"
+    >
+
+    <ImageView
+        android:id="@+id/ExtendedFABIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/ExtendedFABLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="14sp"
+        android:layout_toEndOf="@+id/ExtendedFABIcon"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
